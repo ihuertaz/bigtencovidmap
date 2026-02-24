@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>News Reveal</title>
+</head>
+<body>
+
+    <button onclick="changeHeadline()">Reveal the truth</button>
+    <h2 id="headline">Council spending report</h2>
+
+    <script>
+    function changeHeadline() {
+      document.getElementById("headline").innerText = "£2.3m overspend uncovered";
+    }
+    </script>
+
+</body>
+</html>
